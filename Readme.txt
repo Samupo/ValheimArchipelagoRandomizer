@@ -48,4 +48,4 @@ Tier 11 - Flametal
 CUSTOMIZATION
 Both research and trophies files can be modified. Upon launching the game the mod will create two files for the pieces and recipes that are not yet mentioned in the researches. Mod content can be added to these files.
 If those files are modified the apworld needs to change accordingly. Use the tool ValheimRandomizerParser by putting both research.tsv and trophies.tsv files in the same folder. New files will be created to substitute the ones in the apworld.
-To recreate a new apworld just modify the python files accordingly, zip them (not the folder) and change the extension to apworld.
+To recreate a new apworld just modify the python files accordingly, zip the folder and change the extension to apworld (should be named valheimapworld.apworld).
