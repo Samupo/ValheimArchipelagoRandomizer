@@ -1,0 +1,224 @@
+# iconFromItemPrefab	researchItemID	displayName	description	requiredResearchIDs	researchRecipeRequirements	gatedItemPrefabIDs	tier	category	devComment
+Hammer	researchWorkbench	Crafting			Dandelion:5	piece_workbench	0	Progression	CRAFTING STATIONS
+Club	researchClubTier1	Clubs Tier 1			BoneFragments:5	Club	0	Useful	
+Torch	researchLightingTier1	Lighting Tier 1			Resin:5	Torch	0	Filler	TIER 1 RECIPES
+AxeStone	researchAxeTier1	Axes Tier 1			DeerHide:1|LeatherScraps:5	AxeStone|AxeFlint	1	Progression	Tier 1 to Tier 2
+Hammer	researchWorkbenchUpgrade1	Workbench Upgrade 1		researchWorkbench	MushroomYellow:1|SurtlingCore:4	piece_workbench_ext1	1	Useful	
+Hammer	researchWorkbenchUpgrade2	Workbench Upgrade 2		researchWorkbenchUpgrade1	Flint:1|LeatherScraps:7	piece_workbench_ext2	1	Useful	
+CapeDeerHide	researchCapeTier1	Cape Tier 1		researchWorkbenchUpgrade1	Stone:5|SurtlingCore:9	CapeDeerHide	1	Useful	ARMORS
+CapeTrollHide	researchCapeTier2	Cape Tier 2		researchCapeTier1|researchWorkbenchUpgrade1	Honey:7|SurtlingCore:6	CapeTrollHide	1	Useful	
+ArmorRagsChest	researchRagArmor	Rag Armor		researchWorkbench	BoneFragments:3|GreydwarfEye:2	ArmorRagsChest|ArmorRagsLegs	1	Useful	
+HelmetLeather	researchLeatherArmor	Leather Armor		researchRagArmor|researchWorkbenchUpgrade1	Honey:8|Raspberry:10	ArmorLeatherChest|ArmorLeatherLegs|HelmetLeather	1	Useful	
+HelmetTrollLeather	researchTrollArmor	Troll Armor		researchWorkbenchUpgrade1	BoneFragments:4|Thistle:9	HelmetTrollLeather|ArmorTrollLeatherChest|ArmorTrollLeatherLegs	1	Useful	
+HelmetBerserkerHood	researchBearArmor	Bear Armor		researchWorkbenchUpgrade1	CarrotSeeds:7|Dandelion:2	HelmetBerserkerHood|ArmorBerserkerChest|ArmorBerserkerLegs	1	Useful	
+SwordWood	researchBladesTier1	Blades Tier 1		researchWorkbench	Feathers:7|Mushroom:5	SwordWood	1	Useful	
+SpearFlint	researchSpearTier1	Spears Tier 1		researchWorkbench	LeatherScraps:2|MushroomYellow:10	SpearFlint	1	Useful	
+KnifeFlint	researchShortBladesTier1	Short Blades Tier 1		researchWorkbench	Dandelion:1|LeatherScraps:10	KnifeFlint	1	Useful	
+FistBjornClaw	researchKnucklesTier1	Knuckles Tier 1		researchWorkbenchUpgrade1	Dandelion:8|Wood:6	FistBjornClaw	1	Useful	
+Bow	researchBowsTier1	Bows Tier 1		researchWorkbench	BoneFragments:5|Wood:9	Bow|ArrowWood	1	Useful	Includes Wooden arrows
+ArrowFlint	researchArrowsTier1	Arrows Tier 1		researchBowsTier1|researchWorkbenchUpgrade1	CarrotSeeds:10|Honey:3	ArrowFlint	1	Useful	
+ArrowFire	researchArrowsTier2	Arrows Tier 2		researchArrowsTier1	Flint:1|Raspberry:7	ArrowFire	1	Useful	
+Hoe	researchHoe	Hoe		researchWorkbench	SurtlingCore:8|Thistle:6	Hoe	1	Useful	
+QueenBee	researchBeekeping	Beekeping		researchWorkbench	Stone:9|Wood:4	piece_beehive	1	Useful	WOOD PIECES
+Wood	researchFloorWood	Wooden Floors		researchWorkbench	Honey:6|LeatherScraps:3	wood_floor_1x1|wood_floor	1	Useful	
+Wood	researchStairsWood	Wooden Stairs		researchWorkbench	CarrotSeeds:5|Honey:3	wood_stair|wood_stepladder	1	Useful	
+Wood	researchWallsWood	Wooden Walls		researchWorkbench	BoneFragments:7|Flint:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45	1	Useful	
+Wood	researchRoofsWood	Wooden Roofs		researchWorkbench	Feathers:6|Stone:7	wood_roof|wood_roof_top|wood_roof_ocorner|wood_roof_icorner|wood_roof_45|wood_roof_top_45|wood_roof_ocorner_45|wood_roof_icorner_45	1	Useful	
+Wood	researchBeamsWood	Wooden Beams		researchWorkbench	Blueberries:5|Raspberry:3	wood_pole|wood_pole2|wood_beam_1|wood_beam|wood_beam_26|wood_beam_45	1	Useful	
+Wood	researchDoorsWood	Wooden Doors		researchWorkbench	BoneFragments:7|MushroomYellow:1	wood_door|wood_gate	1	Useful	
+CookedMeat	researchCookingStation	Cooking Station		researchWarmthTier1|researchWorkbench	Stone:4|Wood:1	piece_cookingstation	1	Useful	
+Stone	researchStorageTier1	Storage Tier 1		researchWorkbench	CarrotSeeds:2|Dandelion:2	bone_stack|treasure_pile|treasure_stack|wood_yggdrasil_stack|blackmarble_pile|blackwood_stack|grausten_pile|skull_pile|wood_stack|stone_pile|wood_fine_stack|wood_core_stack|coal_pile	1	Useful	STORAGE
+Wood	researchStorageTier2	Storage Tier 2		researchStorageTier1	GreydwarfEye:7|SurtlingCore:3	piece_chest_wood|piece_chest_barrel	1	Useful	
+Wood	researchBedTier1	Bed Tier 1		researchWorkbench	GreydwarfEye:2|LeatherScraps:5	bed	1	Useful	BEDS
+ShieldWood	researchShieldTier1	Shields Tier 1		researchWorkbench	GreydwarfEye:5|Honey:2	ShieldWood	1	Useful	SHIELDS
+ShieldBoneTower	researchTowerShieldTier1	Tower Shields Tier 1		researchWorkbench	Dandelion:4|Raspberry:6	ShieldBoneTower|ShieldWoodTower	1	Useful	
+Coal	researchCharcoalKiln	Charcoal Kiln		researchWorkbench	Ectoplasm:1|LeatherScraps:10	charcoal_kiln	1	Useful	
+PickaxeAntler	researchPickaxeTier1	Pickaxes Tier 1		researchWorkbench	RoundLog:10	PickaxeAntler	2	Progression	Tier 2 to Tier 3
+Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:5|RoundLog:7	Raft	2	Progression	Tier 2 to Tier 3
+Coal	researchSmelter	Smelter		researchWorkbench	Stone:7|RoundLog:3	smelter	2	Progression	Tier 2 to Tier 3
+Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	BjornHide:3|RoundLog:7	forge	2	Progression	Tier 2 to Tier 3
+SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:19	SledgeStagbreaker	2	Useful	
+RoundLog	researchBeamsCorewood	Corewood Beams		|researchAxeTier1	AncientSeed:7|RoundLog:7	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
+Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Honey:9|Ectoplasm:8|Copper:7	Bronze	3	Progression	Tier 3 to Tier 4
+KnifeCopper	researchShortBladesTier2	Short Blades Tier 2		researchShortBladesTier1|researchForge	Flint:5|Copper:13	KnifeCopper	3	Useful	
+SpearChitin	researchHarpoon	Harpoon		researchAxeTier2|researchBoatTier1	Tin:7	SpearChitin	3	Useful	
+Tar	researchRoofsDarkwood	Darkwood Roofs		researchBoatTier1	TrollHide:6|TinOre:9	darkwood_roof|darkwood_roof_top|darkwood_roof_ocorner|darkwood_roof_icorner|darkwood_roof_45|darkwood_roof_top_45|darkwood_roof_ocorner_45|darkwood_roof_icorner_45	3	Filler	DARKWOOD PIECES
+Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Mushroom:7|Tin:9	darkwood_pole|darkwood_pole4|darkwood_beam|darkwood_beam_26|darkwood_beam_45|darkwood_beam4x4	3	Filler	
+Tar	researchDecorationsDarkwod	Darkwood Decorations		researchBoatTier1	Copper:3	darkwood_decowall|darkwood_arch|darkwood_raven|darkwood_wolf	3	Filler	
+SerpentStew	researchCauldron	Cauldron		researchForge|researchWarmthTier1	Chitin:10	piece_cauldron	3	Useful	
+SerpentStew	researchCauldronUpgrade1	Cauldron Upgrade 1		researchCauldron	Tin:6	cauldron_ext1_spice	3	Useful	
+BarleyWineBase	researchMeadketill	Mead ketill		researchForge	RoundLog:13|Copper:8	piece_MeadCauldron	3	Useful	
+KnifeButcher	researchKnifeButcher	Knife Butcher		researchForge	CopperOre:6	KnifeButcher	3	Useful	
+BronzeNails	researchNailsTier1	Nails Tier 1		researchBronze	CarrotSeeds:5|Tin:2|Ooze:1	BronzeNails	4	Useful	### No progression, move later
+AxeBronze	researchAxeTier2	Axes Tier 2		researchBronze	Chitin:3|Copper:3|Guck:1	AxeBronze	4	Progression	Tier 4 to Tier 5
+Hammer	researchWorkbenchUpgrade3	Workbench Upgrade 3		researchWorkbenchUpgrade2|researchBronze	Root:1	piece_workbench_ext3	4	Useful	
+HelmetBronze	researchBronzeArmor	Bronze Armor		researchBronze	Flint:4|SurtlingCore:5|Guck:1	HelmetBronze|ArmorBronzeChest|ArmorBronzeLegs	4	Useful	
+MaceBronze	researchClubTier2	Clubs Tier 2		researchClubTier1|researchBronze	Tin:6|Ooze:5	MaceBronze	4	Useful	
+SwordBronze	researchBladesTier2	Blades Tier 2		researchBladesTier1|researchBronze	RoundLog:7|Chain:2	SwordBronze	4	Useful	
+SpearBronze	researchSpearTier2	Spears Tier 2		researchSpearTier1|researchBronze	Root:5	SpearBronze	4	Useful	
+AtgeirBronze	researchPolearmsTier1	Polearms Tier 1		researchBronze	Feathers:2|Bloodbag:8	AtgeirBronze	4	Useful	
+ArrowBronze	researchArrowsTier3	Arrows Tier 3		researchArrowsTier2|researchForge|researchBronze	MushroomYellow:1|RoundLog:5|Guck:5	ArrowBronze	4	Useful	
+TrinketBronzeHealth	researchTrinketTier1	Trinkets Tier 1		researchBronze	Bloodbag:1|Root:2	TrinketBronzeHealth|TrinketBronzeStamina|TrinketChitinSwim	4	Useful	
+SurtlingCore	researchTransportationTier1	Transportation Tier 1		researchNailsTier1	Ooze:2	Cart	4	Useful	TRANSPORT
+SurtlingCore	researchTransportationTier2	Transportation Tier 2		researchTransportationTier1	Ectoplasm:2|Guck:5	portal_wood	4	Useful	
+Fish1	researchBoatTier2	Boat Tier 2		researchBoatTier1|researchNailsTier1	Flint:5|Entrails:3	Karve	4	Useful	
+Cultivator	researchCultivator	Cultivator		researchForge|researchBronze	RoundLog:1|CopperOre:4|Guck:3	Cultivator	4	Useful	
+ShieldBronzeBuckler	researchBucklerTier1	Bucklers Tier 1		researchBronze	Bloodbag:9|Ooze:2	ShieldBronzeBuckler	4	Useful	
+PickaxeBronze	researchPickaxeTier2	Pickaxes Tier 2		researchAxeTier2	Chitin:2|ElderBark:9	PickaxeBronze	5	Progression	Tier 5 to Tier 6
+HelmetRoot	researchRootArmor	Root Armor		researchAxeTier2	Blueberries:4|Ectoplasm:7|ElderBark:1	HelmetRoot|ArmorRootChest|ArmorRootLegs	5	Useful	
+KnifeChitin	researchShortBladesTier3	Short Blades Tier 3		researchShortBladesTier2|researchAxeTier2|researchBoatTier1	RoundLog:8|Finewood:10	KnifeChitin	5	Useful	
+BowFineWood	researchBowsTier2	Bows Tier 2		researchBowsTier1|researchAxeTier2	Raspberry:7|ElderBark:9	BowFineWood	5	Useful	
+MeadStaminaMedium	researchFermenter	Fermenter		researchForge|researchAxeTier2	Finewood:1	fermenter	5	Useful	
+SurtlingCore	researchWarmthTier2	Bonfire		researchWarmthTier1|researchAxeTier2|researchBoatTier1	Finewood:6	bonfire	5	Useful	
+ShieldBanded	researchShieldTier2	Shields Tier 2		researchShieldTier1|researchAxeTier2|researchWorkbenchUpgrade1	RoundLog:6|Finewood:19	ShieldBanded	5	Useful	
+PickaxeIron	researchPickaxeTier3	Pickaxes Tier 3		researchPickaxeTier2|researchForgeUpgrade1	RoundLog:7|Finewood:7|WitheredBone:1	PickaxeIron	6	Progression	Tier 6 to Tier 7
+SurtlingCore	researchWarmthTier1	Warmth Tier 1			Coins:25	fire_pit	6	Progression	Tier 6 to Tier 7
+Copper	researchForgeUpgrade1	Forge Upgrade 1		researchForge	SilverNecklace:1|WitheredBone:9	forge_ext5	6	Progression	Tier 6 to Tier 7
+Copper	researchForgeUpgrade4	Forge Upgrade 4		researchForgeUpgrade3|researchPickaxeTier2	Coins:150|SilverNecklace:1	forge_ext4	6	Useful	
+Copper	researchForgeUpgrade5	Forge Upgrade 5		researchForgeUpgrade4	WitheredBone:1	forge_ext6	6	Useful	
+Copper	researchForgeUpgrade6	Forge Upgrade 6		researchForgeUpgrade5|researchStonecutter	BjornPaw:10|Entrails:10|WitheredBone:6	forge_ext3	6	Useful	
+Stone	researchStonecutter	Stonecutter		researchPickaxeTier2	AncientSeed:7|WitheredBone:3	piece_stonecutter	6	Useful	
+HelmetIron	researchIronArmor	Iron Armor		researchPickaxeTier2	Coins:225	HelmetIron|ArmorIronChest|ArmorIronLegs	6	Useful	
+AxeIron	researchAxeTier3	Axes Tier 3		researchForgeUpgrade1|researchBoatTier1	WitheredBone:2	AxeIron	6	Useful	WEAPONS
+Battleaxe	researchBattleaxeTier1	Battleaxes Tier 1		researchForgeUpgrade1	WitheredBone:8	Battleaxe	6	Useful	
+MaceIron	researchClubTier3	Clubs Tier 3		researchClubTier2|researchPickaxeTier2|researchForgeUpgrade1	WitheredBone:8	MaceIron	6	Useful	
+SledgeIron	researchSledgehammerTier2	Sledgehammers Tier 2		researchSledgehammerTier1|researchPickaxeTier2|researchForgeUpgrade1	Iron:8	SledgeIron	6	Useful	
+SwordIron	researchBladesTier3	Blades Tier 3		researchBladesTier2|researchPickaxeTier2|researchForgeUpgrade1	BjornPaw:9|WitheredBone:4	SwordIron	6	Useful	
+SpearElderbark	researchSpearTier3	Spears Tier 3		researchSpearTier2|researchPickaxeTier2|researchForgeUpgrade2	Iron:3|SilverNecklace:1	SpearElderbark	6	Useful	
+AtgeirIron	researchPolearmsTier2	Polearms Tier 2		researchPolearmsTier1|researchPickaxeTier2|researchForgeUpgrade1	Iron:2	AtgeirIron	6	Useful	
+BowHuntsman	researchBowsTier3	Bows Tier 3		researchBowsTier2|researchPickaxeTier2	Wood:1|SilverNecklace:1	BowHuntsman	6	Useful	
+ArrowIron	researchArrowsTier4	Arrows Tier 4		researchArrowsTier3|researchForgeUpgrade1|researchPickaxeTier2	Entrails:2|Finewood:5|SilverNecklace:1	ArrowIron	6	Useful	
+TrinketIronHealth	researchTrinketTier2	Trinkets Tier 2		researchTrinketTier1|researchPickaxeTier2	RoundLog:10|Guck:7|Coins:100	TrinketIronHealth|TrinketIronStamina	6	Useful	
+Tar	reserachDoorsDarkwood	Darkwood Doors		researchPickaxeTier2|researchBoatTier1	CarrotSeeds:7|Coins:125|Iron:10	darkwood_gate	6	Useful	
+BarleyFlour	researchWindmill	Windmill		researchPickaxeTier2|researchBoatTier1|researchCultivator	ElderBark:2|Coins:25	windmill	6	Useful	FOOD
+SerpentMeatCooked	researchIronCookingStation	Iron Cooking Station		researchPickaxeTier2|researchBoatTier1|researchWarmthTier3	TrollHide:2|RoundLog:7|Coins:250	Piece_ironcookingstation	6	Useful	
+BreadDough	researchPreparationTable	Food Preparation Table		researchPickaxeTier2|researchBoatTier1	AncientSeed:2|WitheredBone:6	piece_preptable	6	Useful	
+Finewood	researchStorageTier3	Storage Tier 3		researchStorageTier2|researchPickaxeTier2|researchBoatTier1	SilverNecklace:1	piece_chest	6	Useful	
+Fish1	researchBoatTier3	Boat Tier 3		researchBoatTier2|researchNailsTier2	RoundLog:6|SilverNecklace:1	VikingShip	6	Useful	
+Wood	researchBedTier2	Bed Tier 2		researchBedTier1|researchWarmthTier1|researchNailsTier2	BjornPaw:5|Ectoplasm:3|Coins:200	piece_bed02	6	Useful	
+SurtlingCore	researchWarmthTier3	Hearth		researchStonecutter|researchWarmthTier2	RoundLog:12|Coins:25	hearth	6	Useful	
+ShieldIronTower	researchTowerShieldTier2	Tower Shields Tier 2		researchTowerShieldTier1|researchForgeUpgrade1|researchPickaxeTier2	SilverNecklace:1	ShieldIronTower|ShieldSerpentscale	6	Useful	
+ShieldIronBuckler	researchBucklerTier2	Bucklers Tier 2		researchBucklerTier1|researchPickaxeTier2	Entrails:2|Finewood:6|Coins:225	ShieldIronBuckler	6	Useful	
+Hammer	researchWorkbenchUpgrade4	Workbench Upgrade 4		researchWorkbenchUpgrade3|researchPickaxeTier3|researchWarmthTier1	Copper:2|Obsidian:2	piece_workbench_ext4	7	Useful	
+DragonTear	researchArtisanTable	Artisan Table		researchPickaxeTier3|researchWarmthTier1	Finewood:3|FreezeGland:8|WolfClaw:6	piece_artisanstation	7	Progression	Tier 7 to Tier 8
+BlackMetalScrap	researchBlastFurnace	Blast Furnace		researchArtisanTable	Copper:2|WitheredBone:9|Crystal:10	blastfurnace	7	Progression	Tier 7 to Tier 8
+HelmetFenring	researchFenrisArmor	Fenris Armor		researchWarmthTier1|researchWorkbenchUpgrade1	Copper:5|WolfPelt:2	HelmetFenring|ArmorFenringChest|ArmorFenringLegs	7	Useful	
+HelmetDrake	researchWolfArmor	Wolf Armor		researchPickaxeTier3|researchWarmthTier1	WolfFang:5	ArmorWolfChest|ArmorWolfLegs|HelmetDrake	7	Useful	
+BattleaxeCrystal	researchBattleaxeTier2	Battleaxes Tier 2		researchBattleaxeTier1|researchForgeUpgrade2|researchPickaxeTier3|researchWarmthTier1	FreezeGland:7	BattleaxeCrystal	7	Useful	
+MaceSilver	researchClubTier4	Clubs Tier 4		researchClubTier3|researchForgeUpgrade2|researchWarmthTier1|researchPickaxeTier3	AncientSeed:3|SilverOre:5	MaceSilver	7	Useful	
+SwordSilver	researchBladesTier4	Blades Tier 4		researchBladesTier3|researchForgeUpgrade2|researchWarmthTier1|researchPickaxeTier3	CopperOre:9|Finewood:4|WolfClaw:4	SwordSilver	7	Useful	
+SpearWolfFang	researchSpearTier4	Spears Tier 4		researchSpearTier3|researchForgeUpgrade2|researchWarmthTier1|researchPickaxeTier3	BjornPaw:7|Crystal:8|Obsidian:2	SpearWolfFang	7	Useful	
+KnifeSilver	researchShortBladesTier4	Short Blades Tier 4		researchShortBladesTier3|researchForgeUpgrade2|researchWarmthTier1|researchPickaxeTier3	GreydwarfEye:10|Finewood:4|WolfHairBundle:9	KnifeSilver	7	Useful	
+FistFenrirClaw	researchKnucklesTier2	Knuckles Tier 2		researchKnucklesTier1|researchForgeUpgrade2|researchWarmthTier1|researchPickaxeTier3	Coins:100|FreezeGland:3	FistFenrirClaw	7	Useful	
+BowDraugrFang	researchBowsTier4	Bows Tier 4		researchBowsTier3|researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade1	Tin:9|JuteRed:3|WolfClaw:6	BowDraugrFang	7	Useful	
+ArrowObsidian	researchArrowsTier5	Arrows Tier 5		researchArrowsTier4|researchWorkbenchUpgrade2|researchPickaxeTier3|researchWarmthTier1	RoundLog:5|Tin:2|Obsidian:3	ArrowObsidian	7	Useful	
+ArrowSilver	researchArrowsTier6	Arrows Tier 6		researchArrowsTier5	Guck:4|ElderBark:9|SilverOre:9	ArrowSilver	7	Useful	
+ArrowPoison	researchArrowsTier7	Arrows Tier 7		researchArrowsTier6	Coins:100|WolfHairBundle:13	ArrowPoison	7	Useful	
+ArrowFrost	researchArrowsTier8	Arrows Tier 8		researchArrowsTier7|researchWorkbenchUpgrade3	Ectoplasm:2|WolfHairBundle:9	ArrowFrost	7	Useful	
+ArrowNeedle	researchArrowsTier9	Arrows Tier 9		researchArrowsTier8	RoundLog:9|SilverNecklace:1|WolfHairBundle:1	ArrowNeedle	7	Useful	
+TrinketSilverResist	researchTrinketTier3	Trinkets Tier 3		researchTrinketTier2|researchWarmthTier1|researchPickaxeTier3	Ooze:1|SilverOre:10|WolfHairBundle:1	TrinketSilverResist|TrinketSilverDamage	7	Useful	
+Eyescream	researchCauldronUpgrade2	Cauldron Upgrade 2		researchCauldronUpgrade1|researchPickaxeTier3	Obsidian:7	cauldron_ext3_butchertable	7	Useful	
+ShieldSilver	researchShieldTier3	Shields Tier 3		researchShieldTier2|researchPickaxeTier3|researchWarmthTier1	TrollHide:5|SilverOre:4|WolfPelt:9	ShieldSilver	7	Useful	
+IronNails	researchNailsTier2	Nails Tier 2		researchPickaxeTier2	WitheredBone:2	IronNails	6	Progression	Tier 8 to Tier 9
+AxeBlackMetal	researchAxeTier4	Axes Tier 4		researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade3	Barley:9|BlackMetalScrap:1	AxeBlackMetal	8	Progression	Tier 8 to Tier 9
+Wisp	researchWispFountain	Wisp Fountain		researchStonecutter	CopperOre:1|Flax:10	piece_wisplure	8	Progression	Tier 8 to Tier 9
+Demister	researchWisplight	Wisplight		researchWispFountain	BjornPaw:1|Barley:3	Demister	8	Progression	Tier 8 to Tier 9
+Copper	researchForgeUpgrade2	Forge Upgrade 2		researchForgeUpgrade1|researchBoatTier1	LoxPelt:1	forge_ext1	8	Progression	Tier 8 to Tier 9
+Copper	researchForgeUpgrade3	Forge Upgrade 3		researchForgeUpgrade2|researchBronze	Cloudberry:5	forge_ext2	8	Progression	Tier 8 to Tier 9
+LinenThread	researchSpinningWheel	Spinning Wheel		researchArtisanTable|researchNailsTier2	Cloudberry:9	piece_spinningwheel	8	Progression	Tier 8 to Tier 9
+CapeLinen	researchCapeTier3	Cape Tier 3		researchCapeTier2|researchPickaxeTier3|researchWarhmth1	UndeadBjornRibcage:9	CapeLinen	8	Useful	
+CapeLox	researchCapeTier4	Cape Tier 4		researchCapeTier3	Barley:9	CapeLox	8	Useful	
+CapeWolf	researchCapeTier5	Cape Tier 5		researchCapeTier4	Barley:8	CapeWolf	8	Useful	
+HelmetBerserkerUndead	researchVileboneArmor	Vilebone Armor		researchSpinningWheel|researchForgeUpgrade1	BlackMetalScrap:10	HelmetBerserkerUndead|ArmorBerserkerUndeadChest|ArmorBerserkerUndeadLegs	8	Useful	
+HelmetPadded	researchPaddedArmor	Padded Armor		researchSpinningWheel	BjornHide:5|Crystal:1|BlackMetalScrap:4	HelmetPadded|ArmorPaddedCuirass|ArmorPaddedGreaves	8	Useful	
+BattleaxeBlackmetal	researchBattleaxeTier3	Battleaxes Tier 3		researchBattleaxeTier2|researchSpinningWheel|researchBlastFurnace||researchForgeUpgrade3	Finewood:2|Coins:100|Cloudberry:9	BattleaxeBlackmetal	8	Useful	
+MaceNeedle	researchClubTier5	Clubs Tier 5		researchClubTier4|researchSpinningWheel|researchForgeUpgrade3	Blueberries:2|Needle:4	MaceNeedle	8	Useful	
+SwordBlackmetal	researchBladesTier5	Blades Tier 5		researchBladesTier4|researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade3	Ectoplasm:7|JuteRed:1|Needle:1	SwordBlackmetal	8	Useful	
+AtgeirBlackmetal	researchPolearmsTier3	Polearms Tier 3		researchPolearmsTier2|researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade3	Ooze:4|UndeadBjornRibcage:3	AtgeirBlackmetal	8	Useful	
+KnifeBlackMetal	researchShortBladesTier5	Short Blades Tier 5		researchShortBladesTier4|researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade3	LoxPelt:10	KnifeBlackMetal	8	Useful	
+KnifeSkollAndHati	researchShortBladesTier6	Short Blades Tier 6		researchShortBladesTier5|researchBlackForge	SurtlingCore:4|Iron:3|Flax:2	KnifeSkollAndHati	8	Useful	
+FistBjornUndeadClaw	researchKnucklesTier3	Knuckles Tier 3		researchKnucklesTier2|researchSpinningWheel|researchBlastFurnace|researchForgeUpgrade3	Dandelion:8|Barley:5	FistBjornUndeadClaw	8	Useful	
+TrinketBlackDamageHealth	researchTrinketTier4	Trinkets Tier 4		researchTrinketTier3|researchBlastFurnace	Feathers:9|BlackMetalScrap:6	TrinketBlackDamageHealth|TrinketBlackStamina	8	Useful	
+Bread	researchStoneOven	Stone Oven		researchArtisanTable	RoundLog:6|Tin:5|Flax:6	piece_oven	8	Useful	
+BloodPudding	researchCauldronUpgrade3	Cauldron Upgrade 3		researchCauldronUpgrade2|researchWindmill|researchBlastFurnace	Ectoplasm:1|Iron:10|LoxPelt:6	cauldron_ext4_pots	8	Useful	
+Salad	researchCauldronUpgrade4	Cauldron Upgrade 4		researchCauldronUpgrade3|researchPickaxeTier4	RoundLog:3|Cloudberry:2	cauldron_ext5_mortarandpestle	8	Useful	
+BlackMetal	researchStorageTier4	Storage Tier 4		researchStorageTier3|researchBlastFurnace	GreydwarfEye:10|Cloudberry:9	piece_chest_blackmetal	8	Useful	
+Scythe	researchScythe	Scythe		researchCultivator|researchPickaxeTier4	Chain:9|Ooze:10|Barley:7	Scythe	8	Useful	
+ShieldBlackmetal	researchShieldTier4	Shields Tier 4		researchShieldTier3|researchBlastFurnace	Thistle:6|TinOre:5|Barley:6	ShieldBlackmetal	8	Useful	
+ShieldBlackmetalTower	researchTowerShieldTier3	Tower Shields Tier 3		researchTowerShieldTier2|researchForgeUpgrade2|researchBlastFurnace	Ectoplasm:7|Chitin:7|Needle:5	ShieldBlackmetalTower	8	Useful	
+PickaxeBlackMetal	researchPickaxeTier4	Pickaxes Tier 4		researchAxeTier4|researchWisplight	DvergrNeedle:8	PickaxeBlackMetal	9	Progression	Tier 9 to Tier 10
+Sap	researchSapExtractor	Sap Extractor		researchPickaxeTier4	BjornHide:5|Ectoplasm:9|RoyalJelly:6	piece_sapcollector	9	Useful	Tier 9 to Tier 10
+Eitr	researchEitrRefinery	Eitr Refinery		researchPickaxeTier4	ElderBark:2|MushroomJotunPuffs:2|YggdrasilWood:8	eitrrefinery	9	Useful	Tier 9 to Tier 10
+BlackCore	researchBlackForge	Black Forge		researchPickaxeTier4	MushroomMagecap:8	blackforge	9	Useful	
+BlackCore	researchBlackForgeUpgrade1	Black Forge Upgrade 1		researchBlackForge	YggdrasilWood:3	blackforge_ext1	9	Useful	
+BlackCore	researchBlackForgeUpgrade2	Black Forge Upgrade 2		researchBlackForgeUpgrade1	BlackCore:10|JuteBlue:5	blackforge_ext3_metalcutter	9	Useful	
+HelmetCarapace	researchCarapaceArmor	Carapace Armor		researchBlackForge	Thistle:2|GiantBloodSack:9	HelmetCarapace|ArmorCarapaceChest|ArmorCarapaceLegs	9	Useful	
+THSwordKrom	researchLongBladesTier1	Long Blades Tier 1		researchBlackForge	Mandible:5	THSwordKrom	9	Useful	
+SpearCarapace	researchSpearTier5	Spears Tier 5		researchSpearTier4|researchBlackForge	Bilebag:9|BlackCore:10	SpearCarapace	9	Useful	
+ArrowCarapace	researchArrowsTier10	Arrows Tier 10		researchArrowsTier9|researchBlackForge	Finewood:7|ScaleHide:9	ArrowCarapace	9	Useful	
+CrossbowArbalest	researchCrossbowsTier1	Crossbows Tier 1		researchBlackForge	Copper:6|SilverNecklace:1|GiantBloodSack:6	CrossbowArbalest|BoltBone	9	Useful	Includes Bone bolts
+BoltIron	researchBoltsTier1	Bolts Tier 1		researchCrossbowsTier1|researchBlackForge	SilverNecklace:1|YggdrasilWood:9	BoltIron	9	Useful	
+BoltBlackmetal	researchBoltsTier2	Bolts Tier 2		researchBoltsTier1	Stone:9|Tin:5|Mandible:2	BoltBlackmetal	9	Useful	
+BoltCarapace	researchBoltsTier3	Bolts Tier 3		researchBoltsTier2	RoundLog:4|WolfFang:7|DvergrNeedle:5	BoltCarapace	9	Useful	
+CrossbowArbalest	researchDvergrDoors	Dvergr Doors		researchAxeTier4	BlackCore:7	piece_hexagonal_door	9	Filler	DVERGR PIECES
+CrossbowArbalest	researchDvergrFences	Dvergr Fences		researchAxeTier4	CarrotSeeds:9|YggdrasilWood:9	piece_dvergr_stake_wall|piece_dvergr_sharpstakes	9	Filler	
+CrossbowArbalest	researchDvergrStairs	Dvergr Stairs		researchAxeTier4	Blueberries:2|Ooze:1|Bilebag:9	piece_dvergr_spiralstair|piece_dvergr_spiralstair_right	9	Filler	
+CeramicPlate	researchCeramicPlate	Ceramic Plates		researchArtisanUpgrade1	RoundLog:9|WitheredBone:1|Softtissue:1	CeramicPlate	10	Progression	Tier 10 to Tier 11
+Fish1	researchBoatTier4	Boat Tier 4		researchCeramicPlate	Sap:7	VikingShip_Ashlands	10	Progression	Tier 10 to Tier 11
+DragonTear	researchArtisanUpgrade1	Artisan Press		researchPickaxeTier4	Bloodbag:3|LoxPelt:6|Sap:5	piece_artisanstation	10	Progression	Tier 10 to Tier 11
+Eitr	researchGaldrTable	Galdr Table		researchEitrRefinery	RoundLog:10|Softtissue:8	piece_magetable	10	Useful	
+Eitr	researchGaldrTableUpgrade1	Galdr Table Upgrade 1		researchGaldrTable	Wisp:5	piece_magetable_ext2	10	Useful	
+Eitr	researchGaldrTableUpgrade2	Galdr Table Upgrade 2		researchGaldrTableUpgrade1	Finewood:1|BlackMarble:3	piece_magetable_ext	10	Useful	
+CapeFeather	researchCapeTier6	Cape Tier 6		researchCapeTier5|researchGaldrTable	Raspberry:5|Softtissue:9	CapeFeather	10	Useful	
+HelmetMage	researchEitrArmor	Eitr Armor		researchGaldrTable	RoundLog:2|Mandible:4|BlackMarble:8	HelmetMage|ArmorMageChest|ArmorMageLegs	10	Useful	
+AxeJotunBane	researchAxeTier5	Axes Tier 5		researchBlackForge|researchEitrRefinery	BlackMarble:5	AxeJotunBane	10	Useful	
+BattleaxeSkullSplittur	researchBattleaxeTier4	Battleaxes Tier 4		researchBattleaxeTier3|researchEitrRefinery	Resin:9|BlackMarble:2|Eitr:10	BattleaxeSkullSplittur	10	Useful	
+SledgeDemolisher	researchSledgehammerTier3	Sledgehammers Tier 3		researchSledgehammerTier2|researchBlackForge|researchEitrRefinery	Ectoplasm:8|Root:8|BlackMarble:8	SledgeDemolisher	10	Useful	
+SwordMistwalker	researchBladesTier6	Blades Tier 6		researchBladesTier5|researchEitrRefinery|researchBlackForge	FreezeGland:2|Softtissue:5	SwordMistwalker	10	Useful	
+AtgeirHimminAfl	researchPolearmsTier4	Polearms Tier 4		researchPolearmsTier3|researchBlackForge|researchEitrRefinery	Wood:9|TrollHide:7|Eitr:3	AtgeirHimminAfl	10	Useful	
+BowSpineSnap	researchBowsTier5	Bows Tier 5		researchBowsTier4|researchBlackForge|researchEitrRefinery	BjornPaw:6|Flax:8|Eitr:5	BowSpineSnap	10	Useful	
+StaffIceShards	researchElementalMagicTier1	Elemental Magic Tier 1		researchGaldrTable	TinOre:9|Eitr:8	StaffIceShards|StaffFireball	10	Useful	Frost and Ember
+StaffShield	reserachBloodMagicTier1	Blood Magic Tier 1		researchGaldrTable	LoxPelt:2|BlackMarble:9	StaffShield|StaffSkeleton	10	Useful	Protection and Dead raiser
+TrinketCarapaceEitr	researchTrinketTier5	Trinkets Tier 5		researchTrinketTier4|researchBlackForge|researchEitrRefinery	Wisp:4	TrinketCarapaceEitr|TrinketScaleStaminaDamage	10	Useful	
+ShieldCarapace	researchShieldTier5	Shields Tier 5		researchShieldTier4|researchBlackForge|researchEitrRefinery	BjornHide:1|RoundLog:8|Softtissue:10	ShieldCarapace	10	Useful	
+ShieldCarapaceBuckler	researchBucklerTier3	Bucklers Tier 3		researchBucklerTier2|researchBlackForge|researchEitrRefinery	Sap:3	ShieldCarapaceBuckler	10	Useful	
+BlackCore	researchBlackForgeUpgrade3	Black Forge Upgrade 3		researchBlackForgeUpgrade2|researchBoatTier4	Finewood:4|Sap:5|AsksvinCarrionPelvic:8	blackforge_ext2_vise	11	Useful	
+BlackCore	researchBlackForgeUpgrade4	Black Forge Upgrade 4		researchBlackForgeUpgrade3	Honey:8|RoundLog:1|AsksvinCarrionNeck:9	blackforge_ext4_gemcutter	11	Useful	
+Eitr	researchGaldrTableUpgrade3	Galdr Table Upgrade 3		researchGaldrTableUpgrade2|researchBoatTier4	LeatherScraps:10|RoundLog:8|CharredBone:3	piece_magetable_ext3	11	Useful	
+CapeAsksvin	researchCapeTier7	Cape Tier 7		researchCapeTier6|researchBoatTier4|researchGaldrTableUpgrade1	RoundLog:5|AskHide:10	CapeAsksvin	11	Useful	
+CapeAsh	researchCapeTier8	Cape Tier 8		researchCapeTier7|researchBlackForgeUpgrade2	Fiddleheadfern:6	CapeAsh	11	Useful	
+HelmetAshlandsMediumHood	researchAskArmor	Ask Armor		researchBoatTier4	Fiddleheadfern:5	HelmetAshlandsMediumHood|ArmorAshlandsMediumChest|ArmorAshlandsMediumlegs	11	Useful	
+HelmetMage_Ashlands	researchEmblaArmor	Embla Armor		researchBoatTier4|researchGaldrTableUpgrade1	MorgenHeart:8	HelmetMage_Ashlands|ArmorMageChest_Ashlands|ArmorMageLegs_Ashlands	11	Useful	
+HelmetFlametal	researchFlametalArmor	Flametal Armor		researchBoatTier4|researchBlackForgeUpgrade2	RoundLog:5|JuteRed:8|MorgenHeart:2	HelmetFlametal|ArmorFlametalChest|ArmorFlametalLegs	11	Useful	
+AxeBerzerkr	researchBattleaxeTier5	Battleaxes Tier 5		researchBattleaxeTier4|researchBlackForgeUpgrade2|researchBoatTier4	AsksvinCarrionRibcage:2	AxeBerzerkr	11	Useful	
+AxeBerzerkrBlood	researchBattleaxeTier6	Battleaxes Tier 6		researchBattleaxeTier5|researchSiege|researchBlackForgeUpgrade3	AskHide:7	AxeBerzerkrBlood|AxeBerzerkrLightning|AxeBerzerkrNature	11	Useful	
+MaceEldner	researchClubTier6	Clubs Tier 6		researchClubTier5|researchBlackForgeUpgrade2|researchBoatTier4	Guck:2|MorgenHeart:6	MaceEldner	11	Useful	
+MaceEldnerBlood	researchClubTier7	Clubs Tier 7		researchClubTier6|researchSiege|researchBlackForgeUpgrade3	Bloodbag:8|FlametalNew:3	MaceEldnerBlood|MaceEldnerLightning|MaceEldnerNature	11	Useful	
+SwordNiedhogg	researchBladesTier7	Blades Tier 7		researchBladesTier6|researchBlackForgeUpgrade2|researchBoatTier4	BjornPaw:10|CopperOre:9|AsksvinCarrionSkull:1	SwordNiedhogg	11	Useful	
+SwordDyrnwyn	researchBladesTier8	Blades Tier 8		researchBladesTier7|researchSiege|researchBlackForgeUpgrade3	Copper:18|MushroomSmokePuff:3	SwordDyrnwyn|SwordNiedhoggBlood|SwordNiedhoggLightning|SwordNiedhoggNature	11	Useful	
+THSwordSlayer	researchLongBladesTier2	Long Blades Tier 2		researchLongBladesTier1|researchBlackForgeUpgrade2|researchBoatTier4	RoundLog:5|Vineberry:9	THSwordSlayer	11	Useful	
+THSwordSlayerLightning	researchLongBladesTier3	Long Blades Tier 3		researchLongBladesTier2|researchSiege|researchBlackForgeUpgrade3	TrollHide:10|ProustitePowder:8	THSwordSlayerBlood|THSwordSlayerLightning|THSwordSlayerNature	11	Useful	
+SpearSplitner	researchSpearTier6	Spears Tier 6		researchSpearTier5|researchBlackForgeUpgrade2|researchBoatTier4	MushroomSmokePuff:2	SpearSplitner	11	Useful	
+SpearSplitner_Nature	researchSpearTier7	Spears Tier 7		researchSpearTier6|researchSiege|researchBlackForgeUpgrade3	Tin:2|Softtissue:2|Vineberry:9	SpearSplitner_Blood|SpearSplitner_Lightning|SpearSplitner_Nature	11	Useful	
+BowAshlands	researchBowsTier6	Bows Tier 6		researchBowsTier5|researchBlackForgeUpgrade2|researchBoatTier4	Dandelion:2|AskBladder:4	BowAshlands	11	Useful	
+BowAshlandsRoot	researchBowsTier7	Bows Tier 7		researchBowsTier6|researchSiege|researchBlackForgeUpgrade3	Crystal:3|BonemawSerpentTooth:6|MushroomSmokePuff:7	BowAshlandsBlood|BowAshlandsStorm|BowAshlandsRoot	11	Useful	
+ArrowCharred	researchArrowsTier11	Arrows Tier 11		researchArrowsTier10|researchBoatTier4	Entrails:9|Crystal:4|ProustitePowder:4	ArrowCharred	11	Useful	
+CrossbowRipper	researchCrossbowsTier2	Crossbows Tier 2		researchCrossbowsTier1|researchBlackForgeUpgrade2|researchBoatTier4	BonemawSerpentTooth:9	CrossbowRipper	11	Useful	
+CrossbowRipperNature	researchCrossbowsTier3	Crossbows Tier 3		researchCrossbowsTier2|researchSiege|researchBlackForgeUpgrade3	CopperOre:2|AsksvinCarrionRibcage:1	CrossbowRipperBlood|CrossbowRipperLightning|CrossbowRipperNature	11	Useful	
+BoltCharred	researchBoltsTier4	Bolts Tier 4		researchBoltsTier3|researchBoatTier4	Iron:10|Softtissue:9|AskHide:4	BoltCharred	11	Useful	
+StaffClusterbomb	researchElementalMagicTier2	Elemental Magic Tier 2		researchElementalMagicTier1|researchBoatTier4|researchGaldrTableUpgrade1	ElderBark:5|LoxPelt:1|Vineberry:7	StaffClusterbomb	11	Useful	Fracturing
+StaffGreenRoots	researchElementalMagicTier3	Elemental Magic Tier 3		researchElementalMagicTier2|researchSiege	Pot_Shard_Green:7	StaffGreenRoots|StaffLightning	11	Useful	Dundr and Wild
+StaffRedTroll	researchBloodMagicTier2	Blood Magic Tier 2		reserachBloodMagicTier1|researchSiege	Obsidian:10|AsksvinCarrionSkull:5|CharredBone:4	StaffRedTroll	11	Useful	Trollstav
+Catapult_ammo	researchSiege	Siege		researchBoatTier4	MushroomSmokePuff:8	Catapult_ammo|Catapult|BatteringRam	11	Useful	
+TrinketFlametalStaminaHealth	researchTrinketTier6	Trinkets Tier 6		researchTrinketTier5|researchBoatTier4	TurnipSeeds:6|BlackMarble:7|AsksvinCarrionNeck:4	TrinketFlametalStaminaHealth|TrinketFlametalEitr	11	Useful	
+Blackwood	researchAshwoodFloor	Ashwood Floors		researchBoatTier4	Copper:6|SulfurStone:5	ashwood_floor_2x2|ashwood_floor_1x1|ashwood_deco_floor	11	Filler	ASHLAND PIECES
+Blackwood	researchAshwoodWalls	Ashwood Walls		researchBoatTier4	Barley:7|Softtissue:1|MorgenHeart:10	ashwood_wall_2x2|ashwood_halfwall_1x2|ashwood_quarterwall_1x1|ashwood_wall_arch|ashwood_wall_beam_26|ashwood_wall_cross_26|ashwood_wall_beam_45|ashwood_wall_cross_45|ashwood_wall_roof_26|ashwood_wall_roof_26_upsidedown|ashwood_wall_roof_45|ashwood_wall_roof_45_upsidedown	11	Filler	
+Blackwood	researchAshwoodDecoration	Ashwood Decorations		researchBoatTier4	Finewood:2|SilverNecklace:1|MoltenCore:8	ashwood_decowall_2x2|ashwood_decowall_tree|ashwood_decowall_divider|ashwood_arch_big	11	Filler	
+Blackwood	researchAshwoodBeams	Ashwood Beams		researchBoatTier4	Finewood:4|AskBladder:7	ashwood_beam_1m|ashwood_beam_2m|ashwood_pole_1m|ashwood_pole_2m	11	Filler	
+Blackwood	researchAshwoodStairs	Ashwood Stairs		researchBoatTier4	RoundLog:1|CharcoalResin:10	ashwood_stair	11	Filler	
+Blackwood	researchAshwoodDoors	Ashwood Doors		researchBoatTier4	Wood:2|Pot_Shard_Green:6	ashwood_door	11	Filler	
+MoltenCore	researchTransportationTier3	Transportation Tier 3		researchTransportationTier2|researchBoatTier4	Crystal:4|AsksvinCarrionPelvic:9	portal_stone	11	Useful	
+MarinatedGreens	researchCauldronUpgrade5	Cauldron Upgrade 5		researchCauldronUpgrade4|researchBoatTier4	Guck:1|GiantBloodSack:3|FlametalNew:1	cauldron_ext6_rollingpins	11	Useful	
+Wood	researchBedTier3	Bed Tier 3		researchBedTier2|researchBoatTier4	LoxPelt:8|Needle:10|MushroomSmokePuff:10	ashwood_bed	11	Useful	
+ShieldFlametal	researchShieldTier6	Shields Tier 6		researchShieldTier5|researchBoatTier4	Softtissue:9|CharredBone:5	ShieldFlametal	11	Useful	
+ShieldFlametalTower	researchTowerShieldTier4	Tower Shields Tier 4		researchTowerShieldTier3|researchBoatTier4	Tin:2|TinOre:5|BonemawSerpentTooth:4	ShieldFlametalTower	11	Useful	
