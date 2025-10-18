@@ -5,11 +5,11 @@ from .Items import create_items, item_table
 
 class ValheimWorld(World):
     """
-    Chained Echoes world integration for Archipelago.
+    Valheim world integration for Archipelago.
     Regions and locations are created in `create_regions` (including a call to `create_locations`).
     Items are created in `create_items`.
     """
-    game = "Chained Echoes"
+    game = "Valheim"
     location_name_to_id = location_table
     item_name_to_id = item_table
     topology_present = True

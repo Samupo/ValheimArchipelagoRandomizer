@@ -1,5 +1,11 @@
-INSTALLATION
-...
+INSTALLATION (MOD)
+Copy the mod folder content (not the folder) to BepInEx plugins.
+Once the game is open a popup window will let you connect to Archipelago.
+
+There is a non randomized mode in order to play "vanilla" progression.
+
+INSTALLATION (APWORLD)
+Open the apworld file and install normally.
 
 FILES USED
 research.tsv

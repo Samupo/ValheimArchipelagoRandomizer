@@ -46,14 +46,14 @@ class Program
 
         foreach (var row in researchRows)
         {
-            if (!HasCols(row, Math.Max(RESEARCH_ID_COL, RESEARCH_TIER_COL))) continue;
+            if (!HasCols(row, Math.Max(RESEARCH_DISPLAY_NAME_COL, RESEARCH_TIER_COL))) continue;
             if (row[RESEARCH_CATEGORY_COL] != "Progression") continue;
 
-            string baseId = (row[RESEARCH_ID_COL] ?? "").Trim();
+            string baseId = (row[RESEARCH_DISPLAY_NAME_COL] ?? "").Trim();
             if (string.IsNullOrEmpty(baseId)) continue;
 
             int tier = ClampTier(SafeInt(row[RESEARCH_TIER_COL], 0));
-            tierToItems[tier].Add($"item:{baseId}");
+            tierToItems[tier].Add(baseId + "," + 1);
         }
 
         // Write regions.txt with items appended to each tier line
@@ -64,12 +64,12 @@ class Program
 
             for (int t = 0; t < MaxTier; t++)
             {
-                var fields = new List<string> { $"Tier{t}", $"Tier{t + 1}" };
-
-                // Add all item IDs for this tier (already prefixed with item:)
-                fields.AddRange(tierToItems[t]);
-
-                sw.WriteLine(Csv(fields.ToArray()));
+                sw.Write("Tier" + t + ",Tier" + (t+1));
+                foreach (string item in tierToItems[t])
+                {
+                    sw.Write("," + item);
+                }
+                sw.WriteLine("");
             }
         }
 
@@ -89,7 +89,7 @@ class Program
                 if (string.IsNullOrEmpty(disp)) disp = baseId;
 
                 string internalId = $"item:{baseId}";   // prefixed internal ID
-                string friendly = disp;               // no prefix in display name
+                string friendly = disp;
 
                 sw.WriteLine(Csv(friendly, internalId, "1", "Item", category));
             }
@@ -127,7 +127,7 @@ class Program
                 int tier = ClampTier(SafeInt(row[RESEARCH_TIER_COL], 0));
 
                 string locType = "Research";
-                string friendly = disp;                 // no prefix
+                string friendly = disp;
                 string internalId = $"loc:{baseId}";      // prefixed internal ID
                 string classification = "Not Missable";
                 string region = $"Tier{tier}";

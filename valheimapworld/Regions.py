@@ -29,17 +29,17 @@ region_data_table: Dict[str, ValheimRegion] = {}
 # Example region connections text data
 region_txt = '''
 Menu,Tier0
-Tier0,Tier1,item:researchWorkbench
-Tier1,Tier2,item:researchAxeTier1
-Tier2,Tier3,item:researchBoatTier1,item:researchForge,item:researchPickaxeTier1,item:researchSmelter
-Tier3,Tier4,item:researchBronze
-Tier4,Tier5,item:researchAxeTier2
-Tier5,Tier6,item:researchPickaxeTier2
-Tier6,Tier7,item:researchForgeUpgrade1,item:researchNailsTier2,item:researchPickaxeTier3,item:researchWarmthTier1
-Tier7,Tier8,item:researchArtisanTable,item:researchBlastFurnace
-Tier8,Tier9,item:researchAxeTier4,item:researchForgeUpgrade2,item:researchForgeUpgrade3,item:researchSpinningWheel,item:researchWispFountain,item:researchWisplight
-Tier9,Tier10,item:researchPickaxeTier4
-Tier10,Tier11,item:researchArtisanUpgrade1,item:researchBoatTier4,item:researchCeramicPlate
+Tier0,Tier1,Crafting,1
+Tier1,Tier2,Axes Tier 1,1
+Tier2,Tier3,Boat Tier 1,1,Forge,1,Pickaxes Tier 1,1,Smelter,1
+Tier3,Tier4,Bronze,1
+Tier4,Tier5,Axes Tier 2,1
+Tier5,Tier6,Pickaxes Tier 2,1
+Tier6,Tier7,Forge Upgrade 1,1,Nails Tier 2,1,Pickaxes Tier 3,1,Warmth Tier 1,1
+Tier7,Tier8,Artisan Table,1,Blast Furnace,1
+Tier8,Tier9,Axes Tier 4,1,Forge Upgrade 2,1,Forge Upgrade 3,1,Spinning Wheel,1,Wisp Fountain,1,Wisplight,1
+Tier9,Tier10,Pickaxes Tier 4,1
+Tier10,Tier11,Artisan Press,1,Boat Tier 4,1,Ceramic Plates,1
 '''
 
 # Parse region data

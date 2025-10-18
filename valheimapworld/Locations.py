@@ -310,7 +310,7 @@ progress_type_map = {
 }
 
 # Parse the location data from the text
-current_id = 0
+current_id = 1
 for line in locations_txt.strip().splitlines():
     if line.startswith("//"):  # Skip comments
         continue
