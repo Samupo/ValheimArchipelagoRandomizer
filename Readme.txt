@@ -1,5 +1,7 @@
 INSTALLATION (MOD)
-Copy the mod folder content (not the folder) to BepInEx plugins.
+Valheim Archipelago Randomizer requires BepInEx and Jotunn in order to work properly. You can get them from: https://github.com/Valheim-Modding/Jotunn
+
+Once both BepInEx and Jotunn have been installed, copy the mod folder content (not the folder) to BepInEx plugins.
 Once the game is open a popup window will let you connect to Archipelago.
 
 There is a non randomized mode in order to play "vanilla" progression.
