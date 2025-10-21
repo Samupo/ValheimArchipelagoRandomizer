@@ -159,4 +159,9 @@ internal static class ArchipelagoConnection
         if (ZoneSystem.instance == null) return;
         ZoneSystem.instance.RemoveGlobalKey(k);
     }
+
+    public static void CompleteGame()
+    {
+        session.SetGoalAchieved();
+    }
 }

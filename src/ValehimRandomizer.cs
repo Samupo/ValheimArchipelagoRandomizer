@@ -132,6 +132,11 @@ public class ValheimRandomizer : BaseUnityPlugin
                 var dropName = it?.m_dropPrefab?.name;
                 if (string.IsNullOrEmpty(dropName)) continue;
 
+                if (dropName == "TrophyFader")
+                {
+                    ArchipelagoConnection.CompleteGame();
+                }
+
                 if (!trophyByItemID.TryGetValue(dropName, out var tr)) continue;
                 if (IsResearchCrafted(tr.researchID)) continue;
 

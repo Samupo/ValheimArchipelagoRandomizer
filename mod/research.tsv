@@ -2,49 +2,49 @@
 Hammer	researchWorkbench	Crafting			Dandelion:5	piece_workbench	0	Progression	CRAFTING STATIONS
 Club	researchClubTier1	Clubs Tier 1			BoneFragments:5	Club	0	Useful	
 Torch	researchLightingTier1	Lighting Tier 1			Resin:5	Torch	0	Filler	TIER 1 RECIPES
-AxeStone	researchAxeTier1	Axes Tier 1			DeerHide:1|LeatherScraps:5	AxeStone|AxeFlint	1	Progression	Tier 1 to Tier 2
-Hammer	researchWorkbenchUpgrade1	Workbench Upgrade 1		researchWorkbench	MushroomYellow:1|SurtlingCore:4	piece_workbench_ext1	1	Useful	
-Hammer	researchWorkbenchUpgrade2	Workbench Upgrade 2		researchWorkbenchUpgrade1	Flint:1|LeatherScraps:7	piece_workbench_ext2	1	Useful	
-CapeDeerHide	researchCapeTier1	Cape Tier 1		researchWorkbenchUpgrade1	Stone:5|SurtlingCore:9	CapeDeerHide	1	Useful	ARMORS
-CapeTrollHide	researchCapeTier2	Cape Tier 2		researchCapeTier1|researchWorkbenchUpgrade1	Honey:7|SurtlingCore:6	CapeTrollHide	1	Useful	
-ArmorRagsChest	researchRagArmor	Rag Armor		researchWorkbench	BoneFragments:3|GreydwarfEye:2	ArmorRagsChest|ArmorRagsLegs	1	Useful	
-HelmetLeather	researchLeatherArmor	Leather Armor		researchRagArmor|researchWorkbenchUpgrade1	Honey:8|Raspberry:10	ArmorLeatherChest|ArmorLeatherLegs|HelmetLeather	1	Useful	
-HelmetTrollLeather	researchTrollArmor	Troll Armor		researchWorkbenchUpgrade1	BoneFragments:4|Thistle:9	HelmetTrollLeather|ArmorTrollLeatherChest|ArmorTrollLeatherLegs	1	Useful	
-HelmetBerserkerHood	researchBearArmor	Bear Armor		researchWorkbenchUpgrade1	CarrotSeeds:7|Dandelion:2	HelmetBerserkerHood|ArmorBerserkerChest|ArmorBerserkerLegs	1	Useful	
-SwordWood	researchBladesTier1	Blades Tier 1		researchWorkbench	Feathers:7|Mushroom:5	SwordWood	1	Useful	
-SpearFlint	researchSpearTier1	Spears Tier 1		researchWorkbench	LeatherScraps:2|MushroomYellow:10	SpearFlint	1	Useful	
-KnifeFlint	researchShortBladesTier1	Short Blades Tier 1		researchWorkbench	Dandelion:1|LeatherScraps:10	KnifeFlint	1	Useful	
-FistBjornClaw	researchKnucklesTier1	Knuckles Tier 1		researchWorkbenchUpgrade1	Dandelion:8|Wood:6	FistBjornClaw	1	Useful	
-Bow	researchBowsTier1	Bows Tier 1		researchWorkbench	BoneFragments:5|Wood:9	Bow|ArrowWood	1	Useful	Includes Wooden arrows
-ArrowFlint	researchArrowsTier1	Arrows Tier 1		researchBowsTier1|researchWorkbenchUpgrade1	CarrotSeeds:10|Honey:3	ArrowFlint	1	Useful	
-ArrowFire	researchArrowsTier2	Arrows Tier 2		researchArrowsTier1	Flint:1|Raspberry:7	ArrowFire	1	Useful	
-Hoe	researchHoe	Hoe		researchWorkbench	SurtlingCore:8|Thistle:6	Hoe	1	Useful	
-QueenBee	researchBeekeping	Beekeping		researchWorkbench	Stone:9|Wood:4	piece_beehive	1	Useful	WOOD PIECES
-Wood	researchFloorWood	Wooden Floors		researchWorkbench	Honey:6|LeatherScraps:3	wood_floor_1x1|wood_floor	1	Useful	
-Wood	researchStairsWood	Wooden Stairs		researchWorkbench	CarrotSeeds:5|Honey:3	wood_stair|wood_stepladder	1	Useful	
-Wood	researchWallsWood	Wooden Walls		researchWorkbench	BoneFragments:7|Flint:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45	1	Useful	
-Wood	researchRoofsWood	Wooden Roofs		researchWorkbench	Feathers:6|Stone:7	wood_roof|wood_roof_top|wood_roof_ocorner|wood_roof_icorner|wood_roof_45|wood_roof_top_45|wood_roof_ocorner_45|wood_roof_icorner_45	1	Useful	
-Wood	researchBeamsWood	Wooden Beams		researchWorkbench	Blueberries:5|Raspberry:3	wood_pole|wood_pole2|wood_beam_1|wood_beam|wood_beam_26|wood_beam_45	1	Useful	
-Wood	researchDoorsWood	Wooden Doors		researchWorkbench	BoneFragments:7|MushroomYellow:1	wood_door|wood_gate	1	Useful	
-CookedMeat	researchCookingStation	Cooking Station		researchWarmthTier1|researchWorkbench	Stone:4|Wood:1	piece_cookingstation	1	Useful	
-Stone	researchStorageTier1	Storage Tier 1		researchWorkbench	CarrotSeeds:2|Dandelion:2	bone_stack|treasure_pile|treasure_stack|wood_yggdrasil_stack|blackmarble_pile|blackwood_stack|grausten_pile|skull_pile|wood_stack|stone_pile|wood_fine_stack|wood_core_stack|coal_pile	1	Useful	STORAGE
-Wood	researchStorageTier2	Storage Tier 2		researchStorageTier1	GreydwarfEye:7|SurtlingCore:3	piece_chest_wood|piece_chest_barrel	1	Useful	
-Wood	researchBedTier1	Bed Tier 1		researchWorkbench	GreydwarfEye:2|LeatherScraps:5	bed	1	Useful	BEDS
-ShieldWood	researchShieldTier1	Shields Tier 1		researchWorkbench	GreydwarfEye:5|Honey:2	ShieldWood	1	Useful	SHIELDS
-ShieldBoneTower	researchTowerShieldTier1	Tower Shields Tier 1		researchWorkbench	Dandelion:4|Raspberry:6	ShieldBoneTower|ShieldWoodTower	1	Useful	
-Coal	researchCharcoalKiln	Charcoal Kiln		researchWorkbench	Ectoplasm:1|LeatherScraps:10	charcoal_kiln	1	Useful	
+AxeStone	researchAxeTier1	Axes Tier 1			Flint:10|GreydwarfEye:2	AxeStone|AxeFlint	1	Progression	Tier 1 to Tier 2
+Hammer	researchWorkbenchUpgrade1	Workbench Upgrade 1		researchWorkbench	Wood:20|GreydwarfEye:5	piece_workbench_ext1	1	Useful	
+Hammer	researchWorkbenchUpgrade2	Workbench Upgrade 2		researchWorkbenchUpgrade1	Stone:20|MushroomYellow:10	piece_workbench_ext2	1	Useful	
+CapeDeerHide	researchCapeTier1	Cape Tier 1		researchWorkbenchUpgrade1	DeerHide:10	CapeDeerHide	1	Useful	ARMORS
+CapeTrollHide	researchCapeTier2	Cape Tier 2		researchCapeTier1|researchWorkbenchUpgrade1	TrollHide:5|Stone:10|Wood:5	CapeTrollHide	1	Useful	
+ArmorRagsChest	researchRagArmor	Rag Armor		researchWorkbench	LeatherScraps:10	ArmorRagsChest|ArmorRagsLegs	1	Useful	
+HelmetLeather	researchLeatherArmor	Leather Armor		researchRagArmor|researchWorkbenchUpgrade1	Blueberries:15|DeerHide:5	ArmorLeatherChest|ArmorLeatherLegs|HelmetLeather	1	Useful	
+HelmetTrollLeather	researchTrollArmor	Troll Armor		researchWorkbenchUpgrade1	TrollHide:10|Thistle:10	HelmetTrollLeather|ArmorTrollLeatherChest|ArmorTrollLeatherLegs	1	Progression	
+HelmetBerserkerHood	researchBearArmor	Bear Armor		researchWorkbenchUpgrade1	BjronPaw:3|Honey:5	HelmetBerserkerHood|ArmorBerserkerChest|ArmorBerserkerLegs	1	Useful	
+SwordWood	researchBladesTier1	Blades Tier 1		researchWorkbench	Wood:5	SwordWood	1	Useful	
+SpearFlint	researchSpearTier1	Spears Tier 1		researchWorkbench	Flint:5|Wood:5	SpearFlint	1	Useful	
+KnifeFlint	researchShortBladesTier1	Short Blades Tier 1		researchWorkbench	Flint:5|Dandelion:5	KnifeFlint	1	Useful	
+FistBjornClaw	researchKnucklesTier1	Knuckles Tier 1		researchWorkbenchUpgrade1	BjornHide:3|Wood:10	FistBjornClaw	1	Useful	
+Bow	researchBowsTier1	Bows Tier 1		researchWorkbench	AncientSeed:2	Bow|ArrowWood	1	Useful	Includes Wooden arrows
+ArrowFlint	researchArrowsTier1	Arrows Tier 1		researchBowsTier1|researchWorkbenchUpgrade1	Raspberry:10|Flint:5	ArrowFlint	1	Useful	
+ArrowFire	researchArrowsTier2	Arrows Tier 2		researchArrowsTier1	Ectoplasm:1	ArrowFire	1	Useful	
+Hoe	researchHoe	Hoe		researchWorkbench	Thistle:10	Hoe	1	Useful	
+QueenBee	researchBeekeping	Beekeping		researchWorkbench	Honey:3	piece_beehive	1	Useful	WOOD PIECES
+Wood	researchFloorWood	Wooden Floors		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_floor_1x1|wood_floor	1	Useful	
+Wood	researchStairsWood	Wooden Stairs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_stair|wood_stepladder	1	Useful	
+Wood	researchWallsWood	Wooden Walls		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_wall_quarter|wood_wall_half|woodwall|wood_wall_roof|wood_wall_roof_upsidedown|wood_wall_roof_top|wood_wall_roof_45|wood_wall_roof_45_upsidedown|wood_wall_roof_top_45	1	Useful	
+Wood	researchRoofsWood	Wooden Roofs		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_roof|wood_roof_top|wood_roof_ocorner|wood_roof_icorner|wood_roof_45|wood_roof_top_45|wood_roof_ocorner_45|wood_roof_icorner_45	1	Useful	
+Wood	researchBeamsWood	Wooden Beams		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_pole|wood_pole2|wood_beam_1|wood_beam|wood_beam_26|wood_beam_45	1	Useful	
+Wood	researchDoorsWood	Wooden Doors		researchWorkbench	Wood:25|Honey:3|Mushroom:3	wood_door|wood_gate	1	Useful	
+CookedMeat	researchCookingStation	Cooking Station		researchWarmthTier1|researchWorkbench	BoneFragments:5|Thistle:5	piece_cookingstation	1	Progression	
+Stone	researchStorageTier1	Storage Tier 1		researchWorkbench	Feathers:5|Ruby:2	bone_stack|treasure_pile|treasure_stack|wood_yggdrasil_stack|blackmarble_pile|blackwood_stack|grausten_pile|skull_pile|wood_stack|stone_pile|wood_fine_stack|wood_core_stack|coal_pile	1	Useful	STORAGE
+Wood	researchStorageTier2	Storage Tier 2		researchStorageTier1	Amber:2|Ruby:2	piece_chest_wood|piece_chest_barrel	1	Useful	
+Wood	researchBedTier1	Bed Tier 1		researchWorkbench	AmberPearl:10	bed	1	Progression	BEDS
+ShieldWood	researchShieldTier1	Shields Tier 1		researchWorkbench	Wood:15|Stone:10|Thistle:2	ShieldWood	1	Useful	SHIELDS
+ShieldBoneTower	researchTowerShieldTier1	Tower Shields Tier 1		researchWorkbench	BoneFragments:10	ShieldBoneTower|ShieldWoodTower	1	Useful	
+Coal	researchCharcoalKiln	Charcoal Kiln		researchWorkbench	Ectoplasm:1|Thistle:10	charcoal_kiln	1	Useful	
 PickaxeAntler	researchPickaxeTier1	Pickaxes Tier 1		researchWorkbench	RoundLog:10	PickaxeAntler	2	Progression	Tier 2 to Tier 3
-Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:5|RoundLog:7	Raft	2	Progression	Tier 2 to Tier 3
-Coal	researchSmelter	Smelter		researchWorkbench	Stone:7|RoundLog:3	smelter	2	Progression	Tier 2 to Tier 3
-Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	BjornHide:3|RoundLog:7	forge	2	Progression	Tier 2 to Tier 3
-SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:19	SledgeStagbreaker	2	Useful	
-RoundLog	researchBeamsCorewood	Corewood Beams		|researchAxeTier1	AncientSeed:7|RoundLog:7	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
-Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Honey:9|Ectoplasm:8|Copper:7	Bronze	3	Progression	Tier 3 to Tier 4
-KnifeCopper	researchShortBladesTier2	Short Blades Tier 2		researchShortBladesTier1|researchForge	Flint:5|Copper:13	KnifeCopper	3	Useful	
-SpearChitin	researchHarpoon	Harpoon		researchAxeTier2|researchBoatTier1	Tin:7	SpearChitin	3	Useful	
-Tar	researchRoofsDarkwood	Darkwood Roofs		researchBoatTier1	TrollHide:6|TinOre:9	darkwood_roof|darkwood_roof_top|darkwood_roof_ocorner|darkwood_roof_icorner|darkwood_roof_45|darkwood_roof_top_45|darkwood_roof_ocorner_45|darkwood_roof_icorner_45	3	Filler	DARKWOOD PIECES
-Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Mushroom:7|Tin:9	darkwood_pole|darkwood_pole4|darkwood_beam|darkwood_beam_26|darkwood_beam_45|darkwood_beam4x4	3	Filler	
-Tar	researchDecorationsDarkwod	Darkwood Decorations		researchBoatTier1	Copper:3	darkwood_decowall|darkwood_arch|darkwood_raven|darkwood_wolf	3	Filler	
+Fish1	researchBoatTier1	Boat Tier 1		researchWorkbench	AncientSeed:2|RoundLog:5	Raft	2	Progression	Tier 2 to Tier 3
+Coal	researchSmelter	Smelter		researchWorkbench	RoundLog:10|Raspberry:10	smelter	2	Progression	Tier 2 to Tier 3
+Copper	researchForge	Forge		researchPickaxeTier1|researchSmelter	RoundLog:5|MusroomYellow:2	forge	2	Progression	Tier 2 to Tier 3
+SledgeStagbreaker	researchSledgehammerTier1	Sledgehammers Tier 1		researchWorkbenchUpgrade1|researchAxeTier1	RoundLog:20	SledgeStagbreaker	2	Useful	
+RoundLog	researchBeamsCorewood	Corewood Beams		|researchAxeTier1	RoundLog:3|BjornPaw:1	wood_pole_log|wood_pole_log_4|wood_wall_log|wood_wall_log_4x0.5|wood_log_26|wood_log_45	2	Filler	COREWOOD  PIECES
+Bronze	researchBronze	Bronze		researchForge|researchBoatTier1	Tin:10|Copper:5	Bronze	3	Progression	Tier 3 to Tier 4
+KnifeCopper	researchShortBladesTier2	Short Blades Tier 2		researchShortBladesTier1|researchForge	Copper:10|Stone:10	KnifeCopper	3	Useful	
+SpearChitin	researchHarpoon	Harpoon		researchAxeTier2|researchBoatTier1	Tin:5	SpearChitin	3	Useful	
+Tar	researchRoofsDarkwood	Darkwood Roofs		researchBoatTier1	Wood:10|Chitin:2	darkwood_roof|darkwood_roof_top|darkwood_roof_ocorner|darkwood_roof_icorner|darkwood_roof_45|darkwood_roof_top_45|darkwood_roof_ocorner_45|darkwood_roof_icorner_45	3	Filler	DARKWOOD PIECES
+Tar	researchBeamsDarkwood	Darkwood Beams		researchBoatTier1	Wood:10|Chitin:2	darkwood_pole|darkwood_pole4|darkwood_beam|darkwood_beam_26|darkwood_beam_45|darkwood_beam4x4	3	Filler	
+Tar	researchDecorationsDarkwod	Darkwood Decorations		researchBoatTier1	Wood:10|Chitin:2	darkwood_decowall|darkwood_arch|darkwood_raven|darkwood_wolf	3	Filler	
 SerpentStew	researchCauldron	Cauldron		researchForge|researchWarmthTier1	Chitin:10	piece_cauldron	3	Useful	
 SerpentStew	researchCauldronUpgrade1	Cauldron Upgrade 1		researchCauldron	Tin:6	cauldron_ext1_spice	3	Useful	
 BarleyWineBase	researchMeadketill	Mead ketill		researchForge	RoundLog:13|Copper:8	piece_MeadCauldron	3	Useful	
@@ -72,7 +72,7 @@ MeadStaminaMedium	researchFermenter	Fermenter		researchForge|researchAxeTier2	Fi
 SurtlingCore	researchWarmthTier2	Bonfire		researchWarmthTier1|researchAxeTier2|researchBoatTier1	Finewood:6	bonfire	5	Useful	
 ShieldBanded	researchShieldTier2	Shields Tier 2		researchShieldTier1|researchAxeTier2|researchWorkbenchUpgrade1	RoundLog:6|Finewood:19	ShieldBanded	5	Useful	
 PickaxeIron	researchPickaxeTier3	Pickaxes Tier 3		researchPickaxeTier2|researchForgeUpgrade1	RoundLog:7|Finewood:7|WitheredBone:1	PickaxeIron	6	Progression	Tier 6 to Tier 7
-SurtlingCore	researchWarmthTier1	Warmth Tier 1			Coins:25	fire_pit	6	Progression	Tier 6 to Tier 7
+SurtlingCore	researchWarmthTier1	Warmth Tier 1			SurtlingCore:2|Coins:25	fire_pit	1	Progression	Tier 6 to Tier 7
 Copper	researchForgeUpgrade1	Forge Upgrade 1		researchForge	SilverNecklace:1|WitheredBone:9	forge_ext5	6	Progression	Tier 6 to Tier 7
 Copper	researchForgeUpgrade4	Forge Upgrade 4		researchForgeUpgrade3|researchPickaxeTier2	Coins:150|SilverNecklace:1	forge_ext4	6	Useful	
 Copper	researchForgeUpgrade5	Forge Upgrade 5		researchForgeUpgrade4	WitheredBone:1	forge_ext6	6	Useful	

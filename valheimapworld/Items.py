@@ -30,7 +30,7 @@ Cape Tier 1,item:researchCapeTier1,1,Item,Useful
 Cape Tier 2,item:researchCapeTier2,1,Item,Useful
 Rag Armor,item:researchRagArmor,1,Item,Useful
 Leather Armor,item:researchLeatherArmor,1,Item,Useful
-Troll Armor,item:researchTrollArmor,1,Item,Useful
+Troll Armor,item:researchTrollArmor,1,Item,Progression
 Bear Armor,item:researchBearArmor,1,Item,Useful
 Blades Tier 1,item:researchBladesTier1,1,Item,Useful
 Spears Tier 1,item:researchSpearTier1,1,Item,Useful
@@ -47,10 +47,10 @@ Wooden Walls,item:researchWallsWood,1,Item,Useful
 Wooden Roofs,item:researchRoofsWood,1,Item,Useful
 Wooden Beams,item:researchBeamsWood,1,Item,Useful
 Wooden Doors,item:researchDoorsWood,1,Item,Useful
-Cooking Station,item:researchCookingStation,1,Item,Useful
+Cooking Station,item:researchCookingStation,1,Item,Progression
 Storage Tier 1,item:researchStorageTier1,1,Item,Useful
 Storage Tier 2,item:researchStorageTier2,1,Item,Useful
-Bed Tier 1,item:researchBedTier1,1,Item,Useful
+Bed Tier 1,item:researchBedTier1,1,Item,Progression
 Shields Tier 1,item:researchShieldTier1,1,Item,Useful
 Tower Shields Tier 1,item:researchTowerShieldTier1,1,Item,Useful
 Charcoal Kiln,item:researchCharcoalKiln,1,Item,Useful

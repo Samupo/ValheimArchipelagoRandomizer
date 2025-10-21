@@ -93,7 +93,7 @@ Research,Fermenter,loc:researchFermenter,Not Missable,Tier5
 Research,Bonfire,loc:researchWarmthTier2,Not Missable,Tier5
 Research,Shields Tier 2,loc:researchShieldTier2,Not Missable,Tier5
 Research,Pickaxes Tier 3,loc:researchPickaxeTier3,Not Missable,Tier6
-Research,Warmth Tier 1,loc:researchWarmthTier1,Not Missable,Tier6
+Research,Warmth Tier 1,loc:researchWarmthTier1,Not Missable,Tier1
 Research,Forge Upgrade 1,loc:researchForgeUpgrade1,Not Missable,Tier6
 Research,Forge Upgrade 4,loc:researchForgeUpgrade4,Not Missable,Tier6
 Research,Forge Upgrade 5,loc:researchForgeUpgrade5,Not Missable,Tier6
